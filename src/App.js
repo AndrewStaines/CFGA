@@ -1,5 +1,5 @@
 import './App.css';
-import Home from './components/Home';
+import Home from './components/Landing';
 import GridItems from './components/Mission';
 import { useState, useEffect } from 'react';
 import { BrowserRouter , Routes, Route } from 'react-router-dom';
