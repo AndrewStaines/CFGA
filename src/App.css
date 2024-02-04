@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  margin-top: 250px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 3s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mid{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  padding: 60px;
+  gap: 200px;
+}
+
+.mid1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  padding: 60px;
+  gap: 100px;
+}
+
+.gImages{
+  width: 1500px;
+}
+
+.tim{
+  height: fit-content;
+}
+
+.Acc{
+  width: 1600px;
+}
+
+@media screen and (max-width: 600px) {
+  .mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding: 60px;
+    gap: 50px;
+  }
+
+  .mid1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    padding: 5px;
+    gap: 50px;
+    margin-left: -5px;
+  }
+
+  .colGrid {
+    font-size: smaller;
+  }
+
+  .gImages{
+    margin-left: 250px;
+    width: 500px;
+  }
+
+  .Acc{
+    width: 850px;
+    margin-left: 600px;
+  }
+
+  .tim{
+    width: 475px;
+  }
+  
+}
+
