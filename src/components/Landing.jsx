@@ -14,7 +14,6 @@ import { useInView } from "react-intersection-observer";
 import gj from "../assets/50.png";
 import TimeLine from "./Timeline";
 import Vision from "./Vision";
-import Table from "./Table";
 import './Grid.css'
 
 const pages = [];
@@ -150,6 +149,17 @@ function SideBar() {
         <div className="mid1 colGrid">
         <Mission/>
         <Vision/>
+        </div>
+      </motion.div>
+      <motion.div
+        ref={ref1}
+        animate={controls1}
+        initial={{ opacity: 0, y: 50 }}
+        className="mid"
+      >
+        <div className="mid1 colGrid">
+        <img src={gj} alt="" width={'35%'} />
+        <TimeLine/>
         </div>
       </motion.div>
     </Box>
