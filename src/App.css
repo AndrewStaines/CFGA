@@ -73,7 +73,13 @@
   width: 1600px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+  .body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .mid{
     display: flex;
     flex-direction: column;
